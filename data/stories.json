@@ -1,0 +1,26 @@
+[
+  {
+    "id": "an-madra-agus-an-cat",
+    "title": "An Madra agus an Cat",
+    "title_en": "The Dog and the Cat",
+    "paragraphs": [
+      "Tá madra agam. Tá cat agam freisin.",
+      "Tá an madra mór agus tá an cat beag.",
+      "Tá an madra ag rith sa ghairdín. Tá an cat ina chodladh ar an gcathaoir.",
+      "Maidin amháin, tháinig éan beag isteach sa ghairdín.",
+      "Bhí an cat ag faire ar an éan. Bhí an madra ag tafann.",
+      "D'eitil an t-éan ar an gcrann, agus chuaigh an cat agus an madra a chodladh arís."
+    ]
+  },
+  {
+    "id": "lá-breá-cois-trá",
+    "title": "Lá Breá cois Trá",
+    "title_en": "A Fine Day at the Beach",
+    "paragraphs": [
+      "Bhí lá breá ann inné. Chuaigh mé go dtí an trá leis an gclann.",
+      "Bhí an ghrian ag taitneamh agus bhí an fharraige gorm.",
+      "Rinne mé caisleán gainimh agus shnámh mé san fharraige.",
+      "Ag deireadh an lae, d'ith muid ceapairí agus d'ól muid tae te."
+    ]
+  }
+]

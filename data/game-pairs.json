@@ -1,0 +1,18 @@
+[
+  { "ga": "madra", "en": "dog" },
+  { "ga": "cat", "en": "cat" },
+  { "ga": "leabhar", "en": "book" },
+  { "ga": "bainne", "en": "milk" },
+  { "ga": "uisce", "en": "water" },
+  { "ga": "teach", "en": "house" },
+  { "ga": "doras", "en": "door" },
+  { "ga": "fuinneog", "en": "window" },
+  { "ga": "garsún", "en": "boy" },
+  { "ga": "cailín", "en": "girl" },
+  { "ga": "lá", "en": "day" },
+  { "ga": "oíche", "en": "night" },
+  { "ga": "féar", "en": "grass" },
+  { "ga": "crann", "en": "tree" },
+  { "ga": "éan", "en": "bird" },
+  { "ga": "tae", "en": "tea" }
+]

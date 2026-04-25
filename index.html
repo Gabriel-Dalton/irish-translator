@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Foghlaim Gaeilge — Irish Learning</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <h1>Foghlaim Gaeilge</h1>
+      <p class="tagline">Translate, look up, read, and play in Irish.</p>
+      <nav class="tabs" role="tablist">
+        <button class="tab active" data-tab="translate" role="tab" aria-selected="true">Translate</button>
+        <button class="tab" data-tab="dictionary" role="tab" aria-selected="false">Dictionary</button>
+        <button class="tab" data-tab="stories" role="tab" aria-selected="false">Stories</button>
+        <button class="tab" data-tab="game" role="tab" aria-selected="false">Game</button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Translate -->
+      <section id="tab-translate" class="panel active" role="tabpanel">
+        <div class="row">
+          <label>From
+            <select id="src-lang">
+              <option value="ga">Irish</option>
+              <option value="en" selected>English</option>
+              <option value="fr">French</option>
+              <option value="es">Spanish</option>
+              <option value="de">German</option>
+            </select>
+          </label>
+          <button id="swap-langs" type="button" title="Swap languages" aria-label="Swap languages">⇄</button>
+          <label>To
+            <select id="tgt-lang">
+              <option value="ga" selected>Irish</option>
+              <option value="en">English</option>
+              <option value="fr">French</option>
+              <option value="es">Spanish</option>
+              <option value="de">German</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="translate-grid">
+          <div class="io-block">
+            <textarea id="src-text" placeholder="Type or paste text…" rows="6"></textarea>
+            <div class="io-actions">
+              <button id="mic-btn" type="button" title="Speak input">🎤 Speak</button>
+              <button id="translate-btn" type="button" class="primary">Translate</button>
+            </div>
+            <p id="mic-note" class="hint"></p>
+          </div>
+
+          <div class="io-block">
+            <div id="tgt-text" class="result" aria-live="polite"></div>
+            <div class="io-actions">
+              <button id="speak-btn" type="button" title="Read translation aloud">🔊 Listen</button>
+            </div>
+            <p id="speak-note" class="hint"></p>
+          </div>
+        </div>
+
+        <p id="translate-status" class="status"></p>
+      </section>
+
+      <!-- Dictionary -->
+      <section id="tab-dictionary" class="panel" role="tabpanel" hidden>
+        <form id="dict-form" class="row">
+          <input id="dict-input" type="search" placeholder="Look up an Irish word, e.g. madra" autocomplete="off" />
+          <button type="submit" class="primary">Look up</button>
+        </form>
+        <div id="dict-result" class="dict-result" aria-live="polite"></div>
+      </section>
+
+      <!-- Stories -->
+      <section id="tab-stories" class="panel" role="tabpanel" hidden>
+        <div class="row">
+          <label>Story
+            <select id="story-select"></select>
+          </label>
+          <button id="story-read" type="button">🔊 Read aloud</button>
+          <button id="story-stop" type="button">■ Stop</button>
+        </div>
+        <article id="story-body" class="story-body"></article>
+        <div id="story-tooltip" class="tooltip" hidden></div>
+      </section>
+
+      <!-- Game -->
+      <section id="tab-game" class="panel" role="tabpanel" hidden>
+        <div class="row">
+          <button id="game-new" type="button" class="primary">New round</button>
+          <span class="score">Matches: <strong id="game-score">0</strong> / <span id="game-total">8</span></span>
+          <span class="score">Tries: <strong id="game-tries">0</strong></span>
+        </div>
+        <div id="game-board" class="game-board"></div>
+        <p id="game-status" class="status"></p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <small>Translation by <a href="https://mymemory.translated.net" target="_blank" rel="noopener">MyMemory</a>. Dictionary fallback by <a href="https://en.wiktionary.org" target="_blank" rel="noopener">Wiktionary</a>.</small>
+    </footer>
+
+    <script src="js/speech.js"></script>
+    <script src="js/translate.js"></script>
+    <script src="js/dictionary.js"></script>
+    <script src="js/stories.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

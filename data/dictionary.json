@@ -1,0 +1,242 @@
+{
+  "madra": {
+    "word": "madra",
+    "pos": "noun (masculine)",
+    "definitions": ["dog"],
+    "example": { "ga": "Tá madra agam.", "en": "I have a dog." }
+  },
+  "cat": {
+    "word": "cat",
+    "pos": "noun (masculine)",
+    "definitions": ["cat"],
+    "example": { "ga": "Tá an cat ar an gcathaoir.", "en": "The cat is on the chair." }
+  },
+  "leabhar": {
+    "word": "leabhar",
+    "pos": "noun (masculine)",
+    "definitions": ["book"],
+    "example": { "ga": "Tá leabhar nua agam.", "en": "I have a new book." }
+  },
+  "bainne": {
+    "word": "bainne",
+    "pos": "noun (masculine)",
+    "definitions": ["milk"],
+    "example": { "ga": "Ól an bainne.", "en": "Drink the milk." }
+  },
+  "uisce": {
+    "word": "uisce",
+    "pos": "noun (masculine)",
+    "definitions": ["water"],
+    "example": { "ga": "Tá an t-uisce fuar.", "en": "The water is cold." }
+  },
+  "teach": {
+    "word": "teach",
+    "pos": "noun (masculine)",
+    "definitions": ["house"],
+    "example": { "ga": "Tá an teach mór.", "en": "The house is big." }
+  },
+  "doras": {
+    "word": "doras",
+    "pos": "noun (masculine)",
+    "definitions": ["door"],
+    "example": { "ga": "Dún an doras.", "en": "Close the door." }
+  },
+  "fuinneog": {
+    "word": "fuinneog",
+    "pos": "noun (feminine)",
+    "definitions": ["window"],
+    "example": { "ga": "Oscail an fhuinneog.", "en": "Open the window." }
+  },
+  "garsún": {
+    "word": "garsún",
+    "pos": "noun (masculine)",
+    "definitions": ["boy"],
+    "example": { "ga": "Tá an garsún ag rith.", "en": "The boy is running." }
+  },
+  "cailín": {
+    "word": "cailín",
+    "pos": "noun (masculine)",
+    "definitions": ["girl"],
+    "example": { "ga": "Tá an cailín ag léamh.", "en": "The girl is reading." }
+  },
+  "lá": {
+    "word": "lá",
+    "pos": "noun (masculine)",
+    "definitions": ["day"],
+    "example": { "ga": "Lá breá inniu.", "en": "A fine day today." }
+  },
+  "oíche": {
+    "word": "oíche",
+    "pos": "noun (feminine)",
+    "definitions": ["night"],
+    "example": { "ga": "Oíche mhaith.", "en": "Good night." }
+  },
+  "maidin": {
+    "word": "maidin",
+    "pos": "noun (feminine)",
+    "definitions": ["morning"],
+    "example": { "ga": "Maidin mhaith.", "en": "Good morning." }
+  },
+  "dia": {
+    "word": "dia",
+    "pos": "noun (masculine)",
+    "definitions": ["god"],
+    "example": { "ga": "Dia duit.", "en": "Hello (lit. God to you)." }
+  },
+  "duit": {
+    "word": "duit",
+    "pos": "preposition (2sg)",
+    "definitions": ["to you", "for you"],
+    "example": { "ga": "Slán leat, slán duit.", "en": "Goodbye to you." }
+  },
+  "agam": {
+    "word": "agam",
+    "pos": "preposition (1sg)",
+    "definitions": ["at me", "I have"],
+    "example": { "ga": "Tá leabhar agam.", "en": "I have a book." }
+  },
+  "tá": {
+    "word": "tá",
+    "pos": "verb",
+    "definitions": ["is", "are (present, affirmative of bí)"],
+    "example": { "ga": "Tá sé fuar.", "en": "It is cold." }
+  },
+  "go": {
+    "word": "go",
+    "pos": "particle / preposition",
+    "definitions": ["that", "to", "until"],
+    "example": { "ga": "Slán go fóill.", "en": "Goodbye for now." }
+  },
+  "raibh": {
+    "word": "raibh",
+    "pos": "verb",
+    "definitions": ["was, were (past dependent of bí)"],
+    "example": { "ga": "Go raibh maith agat.", "en": "Thank you (lit. May good be at you)." }
+  },
+  "maith": {
+    "word": "maith",
+    "pos": "adjective",
+    "definitions": ["good"],
+    "example": { "ga": "Tá sé maith.", "en": "It is good." }
+  },
+  "agat": {
+    "word": "agat",
+    "pos": "preposition (2sg)",
+    "definitions": ["at you"],
+    "example": { "ga": "Conas atá tú? — Go maith, go raibh maith agat.", "en": "How are you? — Well, thank you." }
+  },
+  "an": {
+    "word": "an",
+    "pos": "article / interrogative particle",
+    "definitions": ["the", "(question particle)"],
+    "example": { "ga": "An madra.", "en": "The dog." }
+  },
+  "ar": {
+    "word": "ar",
+    "pos": "preposition",
+    "definitions": ["on", "upon"],
+    "example": { "ga": "Tá an cat ar an mbord.", "en": "The cat is on the table." }
+  },
+  "ag": {
+    "word": "ag",
+    "pos": "preposition",
+    "definitions": ["at", "(progressive marker)"],
+    "example": { "ga": "Tá sé ag rith.", "en": "He is running." }
+  },
+  "rith": {
+    "word": "rith",
+    "pos": "verbal noun / verb",
+    "definitions": ["running", "to run"],
+    "example": { "ga": "Tá an madra ag rith.", "en": "The dog is running." }
+  },
+  "léamh": {
+    "word": "léamh",
+    "pos": "verbal noun",
+    "definitions": ["reading"],
+    "example": { "ga": "Is maith liom léamh.", "en": "I like reading." }
+  },
+  "féar": {
+    "word": "féar",
+    "pos": "noun (masculine)",
+    "definitions": ["grass"],
+    "example": { "ga": "Tá an féar glas.", "en": "The grass is green." }
+  },
+  "glas": {
+    "word": "glas",
+    "pos": "adjective",
+    "definitions": ["green", "grey-green", "fresh"],
+    "example": { "ga": "Crann glas.", "en": "A green tree." }
+  },
+  "crann": {
+    "word": "crann",
+    "pos": "noun (masculine)",
+    "definitions": ["tree"],
+    "example": { "ga": "Tá éan ar an gcrann.", "en": "There's a bird on the tree." }
+  },
+  "éan": {
+    "word": "éan",
+    "pos": "noun (masculine)",
+    "definitions": ["bird"],
+    "example": { "ga": "Tá an t-éan ag canadh.", "en": "The bird is singing." }
+  },
+  "canadh": {
+    "word": "canadh",
+    "pos": "verbal noun",
+    "definitions": ["singing"],
+    "example": { "ga": "Tá sí ag canadh.", "en": "She is singing." }
+  },
+  "sé": {
+    "word": "sé",
+    "pos": "pronoun",
+    "definitions": ["he", "it (m.)"],
+    "example": { "ga": "Tá sé anseo.", "en": "He is here." }
+  },
+  "sí": {
+    "word": "sí",
+    "pos": "pronoun",
+    "definitions": ["she", "it (f.)"],
+    "example": { "ga": "Tá sí anseo.", "en": "She is here." }
+  },
+  "anseo": {
+    "word": "anseo",
+    "pos": "adverb",
+    "definitions": ["here"],
+    "example": { "ga": "Tar anseo.", "en": "Come here." }
+  },
+  "fuar": {
+    "word": "fuar",
+    "pos": "adjective",
+    "definitions": ["cold"],
+    "example": { "ga": "Tá sé fuar inniu.", "en": "It is cold today." }
+  },
+  "te": {
+    "word": "te",
+    "pos": "adjective",
+    "definitions": ["hot", "warm"],
+    "example": { "ga": "Tá an tae te.", "en": "The tea is hot." }
+  },
+  "tae": {
+    "word": "tae",
+    "pos": "noun (masculine)",
+    "definitions": ["tea"],
+    "example": { "ga": "Ar mhaith leat tae?", "en": "Would you like tea?" }
+  },
+  "inniu": {
+    "word": "inniu",
+    "pos": "adverb",
+    "definitions": ["today"],
+    "example": { "ga": "Tá sé go deas inniu.", "en": "It's nice today." }
+  },
+  "deas": {
+    "word": "deas",
+    "pos": "adjective",
+    "definitions": ["nice", "pleasant"],
+    "example": { "ga": "Lá deas.", "en": "A nice day." }
+  },
+  "slán": {
+    "word": "slán",
+    "pos": "adjective / interjection",
+    "definitions": ["safe", "goodbye"],
+    "example": { "ga": "Slán abhaile.", "en": "Safe home (goodbye)." }
+  }
+}
